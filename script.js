@@ -54,7 +54,7 @@ const products = [
         name: "Crunchyroll",
         category: "streaming",
         duration: "1 año",
-        price: 50,
+        price: 55,
         icon: "fas fa-film"
     },
     {
@@ -78,7 +78,7 @@ const products = [
         name: "Prime Video",
         category: "streaming",
         duration: "1 Mes",
-        price: 10,
+        price: 12,
         icon: "fas fa-film"
     },
     {
@@ -462,7 +462,6 @@ document.querySelector('.checkout-btn').addEventListener('click', () => {
     // Enviar el mensaje por WhatsApp
     window.open(`https://wa.me/67842791?text=${encodeURIComponent(message)}`);
 });
-
 
 
 

@@ -109,7 +109,7 @@ body {
 /* Hero Section */
 .hero-section {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-                url('banner.png') no-repeat center/cover;
+                url('banner\ \(3\).jpg') no-repeat center/cover;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -848,7 +848,7 @@ align-items: center;
 /* Estilo de tarjeta de producto */
 .product-card {
     background: #fff;
-    border: 1px solid #eee;
+    border: 1px solid #000000;
     border-radius: 8px;
     padding: 1rem;
     transition: transform 0.2s;
