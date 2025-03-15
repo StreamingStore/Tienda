@@ -218,6 +218,30 @@ const products = [
         price: 18,
         icon: "fas fa-tv"
     },
+    {
+        id: 24,
+        name: "Spotify Premium",
+        category: "musica",
+        duration: "3 Meses",
+        price: 45,
+        icon: "fas fa-music"
+    },
+    {
+        id: 25,
+        name: "Youtube Premium",
+        category: "musica",
+        duration: "3 Meses",
+        price: 45,
+        icon: "fas fa-music"
+    },
+    {
+        id: 26,
+        name: "Capcut Pro",
+        category: "diseño",
+        duration: "1 Mes",
+        price: 40,
+        icon: "fas fa-palette"
+    },
    
 ];
 
