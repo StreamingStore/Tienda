@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StreamingStore</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar Estática -->
+    <nav class="navbar">
+        <div class="logo">Streaming/Store</div>
+        <div class="hamburger" id="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#inicio" class="active">Inicio</a></li>
+            <li><a href="#cuentas">Cuentas</a></li>
+            <li><a href="#grupos">Grupos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="cart">
+            <a href="#" id="cart-btn"><i class="fas fa-shopping-cart"></i></a>
+            <span class="count">0</span>
+        </div>
+    </nav>
+
+    <!-- Modal del Carrito (fuera del navbar) -->
+    <div class="cart-modal" id="cart-modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Tu Carrito</h3>
+            <div class="cart-items"></div>
+            <div class="total">Total: $0.00</div>
+            <button class="checkout-btn">Comprar por WhatsApp</button>
+        </div>
+    </div>
+
+    <!-- Sección Hero -->
+    <section id="inicio" class="hero-section">
+        <!-- ... (contenido existente) ... -->
+        <div class="hero-content">
+            <h1>Streaming Store</h1>
+            <p>Tu puerta de acceso al entretenimiento ilimitado en las mejores plataformas</p>
+            <div class="button-group">
+                <a href="#grupos" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Grupos
+                </a>
+                <a href="#contacto" class="btn whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i> Contacto
+                </a>
+            </div>
+        </div>
+    </section>
+<!-- Botón de categorías para móviles -->
+
+    <!-- Sección Cuentas -->
+    <section id="cuentas" class="cuentas-section">
+        <!-- ... (contenido existente) ... -->
+        <div class="container">
+            <!-- Sidebar Categorías -->
+            <div class="sidebar">
+                
+                <ul class="category-list">
+                    <li class="category-item active" data-category="all">Todos</li>
+                    <li class="category-item" data-category="streaming">Streaming</li>
+                    <li class="category-item" data-category="diseño">Diseño Gráfico</li>
+                    <li class="category-item" data-category="musica">Música</li>
+                    <li class="category-item" data-category="tv">TV/Cable/WiFi</li>
+                </ul>
+            </div>
+    
+            <!-- Contenedor de Productos -->
+            <div class="products-container">
+                <h2>Cuentas Disponibles</h2>
+                <div class="products-grid" id="products-grid">
+                    <!-- Los productos se cargarán aquí dinámicamente -->
+                </div>
+            </div>
+        </div>
+    </section>
+   <!-- Sección Grupos -->
+<section id="grupos" class="grupos-section">
+    <div class="container">
+        <h2>Nuestra Comunidad</h2>
+        
+        <div class="services-grid">
+            <!-- Bloque 1 -->
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="juegos.jpg" 
+                         alt="Compra de juegos">
+                </div>
+                <div class="service-content">
+                    <h3>Compra y Recarga de Juegos</h3>
+                    <p>Adquiere saldo y juegos digitales al instante</p>
+                    <a href="https://chat.whatsapp.com/LWpWOdWD1uL4XUpdrfiYII" 
+                       class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Unirse
+                    </a>
+                </div>
+            </div>
+
+            <!-- Bloque 2 -->
+            <div class="service-block">
+                <div class="service-image">
+                    <img src="stream (11).jpg" 
+                         alt="Cuentas de streaming">
+                </div>
+                <div class="service-content">
+                    <h3>Venta de Cuentas de Streaming</h3>
+                    <p>Acceso premium a plataformas de entretenimiento</p>
+                    <a href="https://chat.whatsapp.com/KHTxP6ScY3wBcpuW3ogUNb" 
+                       class="whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Unirse
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección Sobre Nosotros -->
+<section id="sobre-nosotros" class="sobre-section">
+    <div class="container">
+        <h2>¿Por qué elegirnos?</h2>
+        
+        <div class="benefits-container">
+            <!-- Beneficios en 2 columnas -->
+            <div class="benefits-grid">
+                <div class="benefit-column">
+                    <div class="benefit-item">
+                        <i class="fas fa-check-circle"></i>
+                        <h4>Calidad Garantizada</h4>
+                        <p>Productos verificados y cuentas premium</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <h4>Garantía Total</h4>
+                        <p>Reembolso si no quedas satisfecho</p>
+                    </div>
+                </div>
+                
+                <div class="benefit-column">
+                    <div class="benefit-item">
+                        <i class="fas fa-bolt"></i>
+                        <h4>Entregas Instantáneas</h4>
+                        <p>Recibe tus compras al instante</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-headset"></i>
+                        <h4>Soporte 24/7</h4>
+                        <p>Asistencia las 24 horas, todos los días</p>
+                    </div>
+                    <div class="benefit-item">
+                        <i class="fas fa-award"></i>
+                        <h4>Mejor Servicio</h4>
+                        <p>Experiencia de compra premiada</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Métodos de Pago -->
+            <div class="payment-methods">
+                <h3>Métodos de Pago</h3>
+                <div class="methods">
+                    
+                    <div class="method-item">
+                        <i class="fas fa-qrcode"></i>
+                        <span>Pago con QR</span>
+                    </div>
+                    <div class="method-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <span>Tigo Money</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Sección Contacto -->
+<section id="contacto" class="contacto-section">
+    <div class="container">
+        <h2>Contacto</h2>
+        
+        <div class="contact-info">
+            <div class="phone">
+                <i class="fas fa-phone-alt"></i>
+                <a href="tel:+59167842791">+591 6784 2791</a>
+            </div>
+            
+            <a href="https://wa.me/59167842791?text=¡Hola!%20Quiero%20realizar%20una%20consulta" 
+               class="whatsapp-btn">
+                <i class="fab fa-whatsapp"></i> Contacto Directo
+            </a>
+            
+            <p class="slogan">
+                <i>"Calidad, garantía y el mejor servicio a tu alcance"</i>
+            </p>
+        </div>
+    </div>
+</section>
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-section">
+            <h4>Contacto</h4>
+            <ul>
+                <li><i class="fas fa-map-marker-alt"></i> Santa Cruz, Bolivia</li>
+                <li><i class="fas fa-phone-alt"></i> <a href="tel:+59167842791">+591 6784 2791</a></li>
+                
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Grupos WhatsApp</h4>
+            <ul>
+                <li><i class="fab fa-whatsapp"></i> <a href="https://chat.whatsapp.com/LWpWOdWD1uL4XUpdrfiYII">Grupo Recargas y juegos</a></li>
+                <li><i class="fab fa-whatsapp"></i> <a href="https://chat.whatsapp.com/KHTxP6ScY3wBcpuW3ogUNb">Grupo cuentas de Streaming</a></li>
+                <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/59167842791">Soporte 24/7</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-section">
+            <h4>Redes Sociales</h4>
+            <div class="social-icons">
+                
+                <a href="https://wa.me/59167842791"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.tiktok.com/@steveyt8342?_t=ZM-8uglHE9VQXv&_r=1"><i class="fab fa-tiktok"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>&copy; 2025 StreamingStore - Todos los derechos reservados</p>
+    </div>
+</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
