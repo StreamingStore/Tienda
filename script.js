@@ -110,7 +110,7 @@ const products = [
         name: "Porn Hub Premium",
         category: "streaming",
         duration: "1 Mes",
-        price: 24,
+        price: 30,
         icon: "fas fa-film"
     },
     {
@@ -134,7 +134,7 @@ const products = [
         name: "Canva premium",
         category: "diseño",
         duration: "1 Mes",
-        price: 10,
+        price: 15,
         icon: "fas fa-palette"
     },
     {
@@ -142,7 +142,7 @@ const products = [
         name: "Canva premium",
         category: "diseño",
         duration: "3 Meses",
-        price: 25,
+        price: 30,
         icon: "fas fa-palette"
     },
     {
@@ -150,7 +150,7 @@ const products = [
         name: "Canva premium",
         category: "diseño",
         duration: "6 Meses",
-        price: 40,
+        price: 45,
         icon: "fas fa-palette"
     },
     {
@@ -158,7 +158,7 @@ const products = [
         name: "Canva premium",
         category: "diseño",
         duration: "12 Meses",
-        price: 60,
+        price: 70,
         icon: "fas fa-palette"
     },
     {
@@ -239,7 +239,7 @@ const products = [
         name: "Capcut Pro",
         category: "diseño",
         duration: "1 Mes",
-        price: 40,
+        price: 56,
         icon: "fas fa-palette"
     },
    
