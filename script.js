@@ -131,7 +131,7 @@ const products = [
     },
     {
         id: 13,
-        name: "Canva premium",
+        name: "Canva pro",
         category: "diseño",
         duration: "1 Mes",
         price: 15,
@@ -139,7 +139,7 @@ const products = [
     },
     {
         id: 14,
-        name: "Canva premium",
+        name: "Canva pro",
         category: "diseño",
         duration: "3 Meses",
         price: 30,
@@ -147,7 +147,7 @@ const products = [
     },
     {
         id: 15,
-        name: "Canva premium",
+        name: "Canva pro",
         category: "diseño",
         duration: "6 Meses",
         price: 45,
@@ -155,7 +155,7 @@ const products = [
     },
     {
         id: 16,
-        name: "Canva premium",
+        name: "Canva pro",
         category: "diseño",
         duration: "12 Meses",
         price: 70,
