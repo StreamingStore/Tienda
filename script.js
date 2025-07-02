@@ -460,7 +460,7 @@ document.querySelector('.checkout-btn').addEventListener('click', () => {
     }
 
     // Enviar el mensaje por WhatsApp
-    window.open(`https://wa.me/67842791?text=${encodeURIComponent(message)}`);
+    window.open(`https://wa.me/60819641?text=${encodeURIComponent(message)}`);
 });
 
 
